@@ -1,0 +1,218 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+@media (max-width:600px){
+
+.navigatsya{
+    display: flex; 
+    padding: 20px;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    padding-bottom: 50px;
+    height: 20px;
+    top: 0px;
+    background-color: #251819;
+    color: #FFFFFF;
+    
+}
+
+.ul_container{
+    display: flex;
+    font-size: 29px;
+    gap: 40px;
+    list-style: none;
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    left: 0;
+    margin-top: 70px;
+    align-items: center;
+    justify-content:center;
+    position: fixed;
+    top: 100%;
+    transition: 0.2s;
+}
+
+.ul_container.active{
+    top: 130px;
+    transition: 0.2s;
+    background-image:url(../img/nav\ 1.png);
+    background-repeat:no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color:inherit  ;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header_card{
+    gap:5px;
+    display: flex;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+}
+
+.toggel_menu{
+    display: block;
+    background-image: url(../img/burger.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 4px auto;
+    left: 1px;
+}
+
+.toggel_menu.active{
+    background-image: url(../img/x.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.right_menu{
+    display: flex;
+    gap: 18px;
+}
+
+.toggol{
+    background-image:url(../img/dark.svg);
+    width: 27px;
+    height: 27px;
+    justify-content:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top: 3px;
+    display: block;
+}
+
+.toggol.active{
+    width: 30px;
+    height: 30px;
+    background-image:url(../img/sun.svg);
+}
+
+.bady{
+    background-color:#FFFFFF;
+    color: black;
+    transition: 0.1s;
+    width: 100%;
+}
+
+.bady.active{
+    background-color: #251819;
+    color: white;
+    transition: 0.1s;
+}
+
+.toggel_menu_dekoration{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.img2{
+    width: 450px;
+}
+
+.manin_1_img{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main_1_title{
+    width: 80%;
+    margin:20px auto;
+    text-align: center;
+}
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: darkgray;
+}
+
+.main_btn{
+    padding: 33px 100px;
+    background-color: #DC3845;
+    color: #FFFFFF;
+    border: none;
+    border-radius:50px;
+    font-size: 25px;
+}
+
+.img3{
+    width: 250px;
+}
+
+.main_2_title{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.main_1_div{
+    margin-top: 45px;
+}
+
+.main_3_title{
+    width: 85%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.main_4_title{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main_4_div{
+    width: 300px;
+    height: 430px;
+    background:whitesmoke;
+    border-radius: 37px;
+    padding: 15px 15px;
+    margin: 70px auto;
+}
+
+.like{
+    width: 40px;
+    margin: 0px;
+    display: block;
+    background-size:cover;
+    border-radius: 50%;
+}
+
+.like.active{
+    background-color: red;
+}
+
+.img4{
+    width: 250px;
+}
+
+}
