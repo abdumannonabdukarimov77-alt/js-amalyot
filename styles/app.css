@@ -156,7 +156,8 @@ p{
 }
 
 .main_btn{
-    padding: 33px 100px;
+    width: 300px;
+    height: 80px;
     background-color: #DC3845;
     color: #FFFFFF;
     border: none;
@@ -207,12 +208,20 @@ p{
     border-radius: 50%;
 }
 
+.dom{
+    width: 100%;
+}
+
 .like.active{
     background-color: red;
 }
 
 .img4{
     width: 250px;
+}
+
+.kok{
+    width: 80%;
 }
 
 }
