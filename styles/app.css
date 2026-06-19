@@ -47,7 +47,7 @@ body {
     gap: 40px;
     list-style: none;
     width: 100%;
-    height: 50vh;
+    height: 100% ;
     flex-direction: column;
     left: 0;
     margin-top: 70px;
@@ -59,10 +59,11 @@ body {
 }
 
 .ul_container.active{
-    top: 130px;
+    top: 0px;
     transition: 0.2s;
     background-image:url(../img/nav\ 1.png);
     background-repeat:no-repeat;
+    background-color: darkgray;
 }
 
 a{
@@ -228,7 +229,9 @@ p{
 }
 
 .like.active{
-    background-color: red;
+    background-image:url(../img/likeaktiv.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .img4{
