@@ -7,6 +7,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
+    --textcolor:#FFFFFF;
+    --bgColor: #251819;
+    --textcolor2:whitesmoke;
+    --bgColor2:#2F2223;
+    background-color:--bgColor;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -27,9 +32,13 @@ body {
     padding-bottom: 50px;
     height: 20px;
     top: 0px;
-    background-color: #251819;
-    color: #FFFFFF;
-    
+    background-color:var(--textcolor    );
+    color: var(--bgColor);
+}
+
+.navigatsya.active{
+    background-color:var(--bgColor);
+    color:var(--textcolor) ;
 }
 
 .ul_container{
@@ -191,13 +200,19 @@ p{
     text-align: center;
 }
 
-.main_4_div{
+.main_4_div,.main_5_div,.main_6_div,.main_7_div,.main_8_div{
     width: 300px;
     height: 430px;
-    background:whitesmoke;
     border-radius: 37px;
+    background:var(--textcolor2);
+    color:var(--bgColor2) ;
     padding: 15px 15px;
     margin: 70px auto;
+}
+
+.main_4_div.active,.main_5_div.active,.main_6_div.active,.main_7_div.active,.main_8_div.active{
+    color:var(--textcolor2);
+    background:var(--bgColor2);
 }
 
 .like{
