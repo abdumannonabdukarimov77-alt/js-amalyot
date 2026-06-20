@@ -1,7 +1,13 @@
-let ul_container = document.querySelector(".ul_container")
-let toggel_menu = document.querySelector(".toggel_menu")
+document.addEventListener("DOMContentLoaded",()=>{
+    let loaderwrapper = document.querySelector(".loader_wrapper")
 
-toggel_menu.addEventListener("click", function(){
+    setTimeout(function(){
+        loaderwrapper.style.display = "none"
+    },6000)
+  let ul_container = document.querySelector(".ul_container")
+  let toggel_menu = document.querySelector(".toggel_menu")
+
+  toggel_menu.addEventListener("click", function(){
     ul_container.classList.toggle("active")
     toggel_menu.classList.toggle("active")
 })
@@ -31,4 +37,6 @@ let like = document.querySelector(".like")
 
 like.addEventListener("click",function(){
     like.classList.toggle("active")
+})
+  
 })
